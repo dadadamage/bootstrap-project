@@ -1,4 +1,5 @@
 /* helpers */
+
 body {
     margin: 0;
 }
@@ -8,6 +9,7 @@ section {
 }
 
 /* navigation */
+
 #main-nav {
     transition: all 0.4s;
     background-color: transparent;
@@ -37,6 +39,7 @@ section {
 }
 
 /* services */
+
 #services .fa {
     width: 50px;
     height: 50px;
@@ -54,7 +57,69 @@ section {
     color: rgb(14, 216, 214);
 }
 
+/*portfolio*/
+#portfolio {
+    background-color: #f7f7f7;   
+}
 
+#portfolio .content {
+    background-color: #fff;
+    margin-bottom:  15px;
+    padding-bottom: 10px;
+}
 
+#portfolio .content .overflow {
+    height: 350px;
+    overflow: hidden;
+}
 
+#portfolio .content .overflow .background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    transition: all 0.4s;
+}
 
+#portfolio .content .overflow .background:hover {
+    transform: scale(1.5);
+}
+
+#bg1 {
+    background-image: url('../img/portfolio/box_of_cookies.jpg');  
+}
+#bg2 {
+    background-image: url('../img/portfolio/chaotic_paint.jpg');  
+}
+#bg3 {
+    background-image: url('../img/portfolio/chestnut_on_bracket.jpg');  
+}
+#bg4 {
+    background-image: url('../img/portfolio/child_with_blue_paint.jpg');  
+}
+#bg5 {
+    background-image: url('../img/portfolio/house_with_blue_doors.jpg');  
+}
+#bg6 {
+    background-image: url('../img/portfolio/typing_on_laptop.jpg');  
+}
+
+#portfolio .content .overflow .background .mask {
+    background-color: rgba (14, 216, 214, 0.75);
+    opacity: 0;
+    height: 100%;
+    transition: all 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#portfolio .content .overflow .background:hover .mask {
+    opacity: 1;
+    background-color: rgba(14, 216, 214, 0.75);
+    color: #fff;
+}
+
+#portfolio .content h3 {
+    margin-top: 10px
+}
