@@ -4,50 +4,87 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!--    bootstrap style-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto+Slab&amp;subset=latin-ext" rel="stylesheet">
+    
+    <!-- font awesome -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <!-- bootstrap style -->
     <link rel="stylesheet" href="bootstrap-4.0.0/dist/css/bootstrap.min.css">
-<!--    font awesome-->
-   <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-    <!--    main style-->
+
+    <!-- main style -->
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-<nav class="navbar navbar-expand-lg navbar-light">
-  <a class="navbar-brand" href="#">Bootstrap Project</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-<section id="header"></section>
-<section id="portfolio"></section>
-<section id="team"></section>
-<footer></footer>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="main-nav">
+        <a class="navbar-brand" href="#">Project Bootstrap</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#team">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- header -->
+    <header id="main-header">
+        <h2>lorem ipsum dolor</h2>
+        <h1>sit amet. lorem ipsum</h1>
+        <button type="button" class="btn btn-primary">Primary</button>
+    </header>
+    
+    <section id="services" class="text-center">
+        <div class="container">
+            <h2>Services</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et earum ab, molestias vel, dicta itaque ea a. Labore quod tempore rem sapiente velit quis cum dignissimos doloremque aperiam libero. Iusto.</p>
+            <div class="row">
+                <div class="col-md-4 inner">
+                    <i class="fa fa-briefcase fa-2x"></i>
+                    <h3>Web Developer</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis esse quidem eaque, saepe, adipisci voluptates earum magni hic voluptatum natus minima neque sed odit, dolore quae quam sit? Architecto, inventore!</p>
+                </div>
+                <div class="col-md-4 inner">
+                    <i class="fa fa-cloud-download fa-2x"></i>
+                    <h3>E-commerce</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis esse quidem eaque, saepe, adipisci voluptates earum magni hic voluptatum natus minima neque sed odit, dolore quae quam sit? Architecto, inventore!</p>
+                </div>
+                <div class="col-md-4 inner">
+                    <i class="fa fa-comment fa-2x"></i>
+                    <h3>Web design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis esse quidem eaque, saepe, adipisci voluptates earum magni hic voluptatum natus minima neque sed odit, dolore quae quam sit? Architecto, inventore!</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    
+    <!-- jQuery -->
+    <script src="js/jquery-3.3.1.js"></script>
 
-    <!--    jQuery-->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <!--   popper.js-->
+    <!-- popper.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
-    <!--    bootstrap-->
+
+    <!-- bootstrap -->
     <script src="bootstrap-4.0.0/dist/js/bootstrap.min.js"></script>
-    <!--    main script-->
+
+    <!-- main script -->
     <script src="js/main.js"></script>
 </body>
 
